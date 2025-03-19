@@ -1,0 +1,251 @@
+(footprint "CR1225FHLF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CR1225FH-LF-1")
+	(tags "Battery")
+	(property "Reference" "BT**"
+		(at 4.679 0 0)
+		(layer "F.SilkS")
+		(uuid "0c1c4c2e-02b4-4b81-90b6-6901e916bd41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CR1225FHLF"
+		(at 4.679 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8556ddad-ef6d-437f-aaee-8fb5f8b265ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7390ac4b-604e-437e-9adc-2e3666cfb690")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c4cc5d1-5305-4eff-a5f4-821b9094cfbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4352b1ec-7c58-4fe3-99fd-35d837ff8293")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.4 0)
+		(end -2.4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49b24323-3866-48a4-b2bb-89aa3d3d1357")
+	)
+	(fp_line
+		(start -2.4 0)
+		(end -2.4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87a9a256-03b6-4848-a121-66a93228c7a0")
+	)
+	(fp_line
+		(start -2.3 0)
+		(end -2.3 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce30921d-8272-4783-9245-b0e00fd5ba64")
+	)
+	(fp_arc
+		(start -2.4 0)
+		(mid -2.35 -0.05)
+		(end -2.3 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa81790f-b6df-4d32-9171-919dc26cd6bf")
+	)
+	(fp_arc
+		(start -2.3 0)
+		(mid -2.35 0.05)
+		(end -2.4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27da8c5b-7949-4894-86ec-eacb7ca740ca")
+	)
+	(fp_arc
+		(start -2.3 0)
+		(mid -2.35 0.05)
+		(end -2.4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd8ef144-d79a-4f56-9afe-4df6c9813b00")
+	)
+	(fp_line
+		(start -3.4 -7.25)
+		(end 12.758 -7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8040633-5125-4b40-967a-275a35b21dd1")
+	)
+	(fp_line
+		(start -3.4 7.25)
+		(end -3.4 -7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e05652a-13e2-4a3f-ba5f-03ab3fcd1375")
+	)
+	(fp_line
+		(start 12.758 -7.25)
+		(end 12.758 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be663b01-7213-4fe0-a936-049a05d59a25")
+	)
+	(fp_line
+		(start 12.758 7.25)
+		(end -3.4 7.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03c9c165-6743-42f4-9f28-2084c577242a")
+	)
+	(fp_line
+		(start -1.85 0)
+		(end -1.85 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a62d9ccc-67fd-4642-999d-9e28513266a2")
+	)
+	(fp_line
+		(start 10.65 0)
+		(end 10.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42fb2e17-684d-4f8e-a3a3-6aa6070f39eb")
+	)
+	(fp_arc
+		(start -1.85 0)
+		(mid 4.4 -6.25)
+		(end 10.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb6ad0e4-5100-41e2-9212-3578ea962576")
+	)
+	(fp_arc
+		(start 10.65 0)
+		(mid 4.4 6.25)
+		(end -1.85 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da9b483c-d5ec-4a9a-8054-4d44b7788558")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.679 0 0)
+		(layer "F.Fab")
+		(uuid "fcfe11ee-ff3a-4d3f-b67a-3822cc3ea63a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.515 1.515)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5b9aeed-d540-478a-91cd-d99bd752eb99")
+	)
+	(pad "2" thru_hole circle
+		(at 11 0)
+		(size 1.515 1.515)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35defbaa-90a9-4f5a-ad77-40cc1ed86f0f")
+	)
+	(model "${LIB_PERSO}/3D/CR1225FH-LF.stp"
+		(offset
+			(xyz 4.44 0 0.72)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

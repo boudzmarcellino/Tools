@@ -1,0 +1,105 @@
+(footprint "Crystal SMD 10mm x 3.5mm pitch 2.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "370de58d-53a0-4be0-996e-37653607f589")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Crystal SMD 10mm x 3.5mm pitch 2.5mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c4697f3d-8bbb-48fc-8048-d39146a9a0df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad6e8af1-7f80-4bd8-8ea5-338988428dda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52dc1154-9462-4ec9-ac2c-9861470ae6fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a6b55ea-3fa9-4270-9a4c-0851ebf749c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.075 -1.75)
+		(end 5.175 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "84c63c0c-cfbc-470a-a930-a7c9a9faa76d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b077e4e7-47e2-4d54-846e-665d8359b3e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 3.95 -1.25 90)
+		(size 1 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "28df091b-65af-4fc5-a0ba-c7d4344a5467")
+	)
+	(pad "1" smd rect
+		(at 3.95 1.25 90)
+		(size 1 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1095b203-ba20-4397-b4a4-e1e80e2bb199")
+	)
+)
